@@ -1,0 +1,90 @@
+﻿Disease,Dataset Name,Dataset Size (Unique Sequences number),Usage
+MS,n10K_mix_MS_length48.tsv,10K (10K),Optimizing Point Packing parameters
+MS,n50K_mix_MS_length48.tsv,50K (50K),Optimizing Point Packing parameters
+MS,n100K_mix_MS_length48.tsv,100K (100K),Optimizing Point Packing parameters
+MS,n10K_mix_MS_length51.tsv,10K (10K),Optimizing Point Packing parameters
+MS,n50K_mix_MS_length51.tsv,50K (50K),Optimizing Point Packing parameters
+MS,n100K_mix_MS_length51.tsv,100K (100K),Optimizing Point Packing parameters
+MS,n10K_mix_MS_length54.tsv,10K (10K),Optimizing Point Packing parameters
+MS,n50K_mix_MS_length54.tsv,50K (50K),Optimizing Point Packing parameters
+MS,n100K_mix_MS_length54.tsv,100K (100K),Optimizing Point Packing parameters
+MS,n10K_mix_MS_length57.tsv,10K (10K),Optimizing Point Packing parameters
+MS,n50K_mix_MS_length57.tsv,50K (50K),Optimizing Point Packing parameters
+MS,n100K_mix_MS_length57.tsv,100K (100K),Optimizing Point Packing parameters
+MS,n10K_mix_MS_length60.tsv,10K (10K),Optimizing Point Packing parameters
+MS,n50K_mix_MS_length60.tsv,50K (50K),Optimizing Point Packing parameters
+MS,n100K_mix_MS_length60.tsv,100K (100K),Optimizing Point Packing parameters
+MS,MS-M2_1_sim-pass.tab,"85,842 (74,587)",Optimizing Anchor Clustering parameters  and evaluating clustering performance
+MS,MS-M2_2_sim-pass.tab,"85,872 (74,406)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_3_sim-pass.tab,"85,865 (74,366)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_4_sim-pass.tab,"85,863 (74,568)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_5_sim-pass.tab,"85,873  (74,559)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_6_sim-pass.tab,"85,875 (74,561)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_7_sim-pass.tab,"85,864 (74,370)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_8_sim-pass.tab,"85,879 (74,549)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_9_sim-pass.tab,"85,887 (74,451)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M2_10_sim-pass.tab,"85,854 (74,634)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_1_sim-pass.tab,"53,956 (22,068)",Optimizing Anchor Clustering parameters  and evaluating clustering performance
+MS,MS-M3_2_sim-pass.tab,"53,930 (21,709)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_3_sim-pass.tab,"53,949 (21,287)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_4_sim-pass.tab,"53,885 (22,244)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_5_sim-pass.tab,"53,959 (21,600)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_6_sim-pass.tab,"53,929 (21,736)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_7_sim-pass.tab,"53,933 (22,280)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_8_sim-pass.tab,"53,926 (22,308)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_9_sim-pass.tab,"53,947 (22,074)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M3_10_sim-pass.tab,"53,343 (21,995)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_1_sim-pass.tab,"83,547 (44,173)",Optimizing Anchor Clustering parameters  and evaluating clustering performance 
+MS,MS-M4_2_sim-pass.tab,"83,529 (43,847)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_3_sim-pass.tab,"83,544 (43,947)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_4_sim-pass.tab,"83,221 (44,131)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_5_sim-pass.tab,"83,429 (43,463)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_6_sim-pass.tab,"83,558 (43,927)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_7_sim-pass.tab,"83,543 (43,734)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_8_sim-pass.tab,"83,529 (43,593)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_9_sim-pass.tab,"83,541 (43,995)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M4_10_sim-pass.tab,"83,480 (43,881)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_1_sim-pass.tab,"130,972 (71,459)",Optimizing Anchor Clustering parameters  and evaluating clustering performance
+MS,MS-M5_2_sim-pass.tab,"130,953 (71,808)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_3_sim-pass.tab,"131,023 (72,044)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_4_sim-pass.tab,"131,019 (71,779)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_5_sim-pass.tab,"131,057 (71,724)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_6_sim-pass.tab,"131,010 (71,675)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_7_sim-pass.tab,"131,032 (71,723)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_8_sim-pass.tab,"131,025 (71,417)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_9_sim-pass.tab,"130,993 (71,674)",Evaluating clustering performance of Anchor Clustering
+MS,MS-M5_10_sim-pass.tab,"130,998 (71,866)",Evaluating clustering performance of Anchor Clustering
+COVID-19 and Healthy Donors,n10K_mix_COVID_Healthy.tsv,10K (10K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n20K_mix_COVID_Healthy.tsv,20K (20K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n30K_mix_COVID_Healthy.tsv,30K (30K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n40K_mix_COVID_Healthy.tsv,40K (40K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n50K_mix_COVID_Healthy.tsv,50K (50K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n60K_mix_COVID_Healthy.tsv,60K (60K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n70K_mix_COVID_Healthy.tsv,70K (70K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n80K_mix_COVID_Healthy.tsv,80K (80K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n90K_mix_COVID_Healthy.tsv,90K (90K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n100K_mix_COVID_Healthy.tsv,100K (100K),Clustering speed bench-marking and performance bench-marking
+COVID-19 and Healthy Donors,n200K_mix_COVID_Healthy.tsv,200K (200K),Clustering speed bench-marking
+COVID-19 and Healthy Donors,n300K_mix_COVID_Healthy.tsv,300K (300K),Clustering speed bench-marking
+"SLE, HB, CLL, COVID-19",n1M_mix_4.tsv,1M (1M) ,Evaluating clustering speed of Anchor Clustering
+"SLE, HB, CLL, COVID-19",n2M_mix_4.tsv,2M (2M) ,Evaluating clustering speed of Anchor Clustering
+"SLE, HB, CLL, COVID-19",n3M_mix_4.tsv,3M (3M),Evaluating clustering speed of Anchor Clustering
+"SLE, HB, CLL, COVID-19",n4M_mix_4.tsv,4M (4M),Evaluating clustering speed of Anchor Clustering
+COVID-19 and CLL,n100K_COVID_100K_CLL.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+HB and COVID-19,n100K_HB_100K_COVID.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+HB and CLL,n100K_HB_100K_CLL.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+HB and SLE,n100K_HB_100K_SLE.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+SLE and COVID-19,n100K_SLE_100K_COVID.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+SLE and CLL,n100K_SLE_100K_CLL.tsv,200K (200K),Evaluating clustering performance of Anchor Clustering
+COVID-19 and CLL,n500K_COVID_500K_CLL.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+HB and COVID-19,n500K_HB_500K_COVID.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+HB and CLL,n500K_HB_500K_CLL.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+HB and SLE,n500K_HB_500K_SLE.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+SLE and COVID-19,n500K_SLE_500K_COVID.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+SLE and CLL,n500K_SLE_500K_CLL.tsv,1M (1M) ,Evaluating clustering performance of Anchor Clustering
+COVID-19 and CLL,n1M_COVID_1M_CLL.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
+HB and COVID-19,n1M_HB_1M_COVID.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
+HB and CLL,n1M_HB_1M_CLL.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
+HB and SLE,n1M_HB_1M_SLE.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
+SLE and COVID-19,n1M_SLE_1M_COVID.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
+SLE and CLL,n1M_SLE_1M_CLL.tsv,2M (2M) ,Evaluating clustering performance of Anchor Clustering
