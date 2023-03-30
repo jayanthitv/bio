@@ -1,0 +1,9 @@
+Size,Method,Runtime
+1M,Anchor Clustering (post-VJ grouping),5.07
+2M,Anchor Clustering (post-VJ grouping),10.91
+3M,Anchor Clustering (post-VJ grouping),21.52
+4M,Anchor Clustering (post-VJ grouping),26.02
+1M,Anchor Clustering (pre-VJ grouping),4.76
+2M,Anchor Clustering (pre-VJ grouping),10.12
+3M,Anchor Clustering (pre-VJ grouping),19.59
+4M,Anchor Clustering (pre-VJ grouping),25.46

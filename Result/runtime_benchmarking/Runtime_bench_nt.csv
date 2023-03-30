@@ -1,0 +1,61 @@
+Size,Method,Runtime
+10K,Alignment Free,0.15
+20K,Alignment Free,0.47
+30K,Alignment Free,0.96
+40K,Alignment Free,1.61
+50K,Alignment Free,2.43
+60K,Alignment Free,3.43
+70K,Alignment Free,4.61
+80K,Alignment Free,5.95
+90K,Alignment Free,7.47
+100K,Alignment Free,9.5
+200K,Alignment Free,37.34
+300K,Alignment Free,82.42
+10K,Scoper,0.85
+20K,Scoper,1.06
+30K,Scoper,1.41
+40K,Scoper,1.85
+50K,Scoper,2.21
+60K,Scoper,2.97
+70K,Scoper,3.39
+80K,Scoper,4.67
+90K,Scoper,5.18
+100K,Scoper,6.85
+200K,Scoper,38.34
+300K,Scoper,49.5
+10K,DefineClone,0.3
+20K,DefineClone,0.4
+30K,DefineClone,0.7
+40K,DefineClone,1.1
+50K,DefineClone,1.7
+60K,DefineClone,2.4
+70K,DefineClone,4
+80K,DefineClone,5.5
+90K,DefineClone,6.3
+100K,DefineClone,7.2
+200K,DefineClone,37.3
+300K,DefineClone,102.41
+10K,Anchor Clustering (post-VJ grouping),0.22
+20K,Anchor Clustering (post-VJ grouping),0.32
+30K,Anchor Clustering (post-VJ grouping),0.38
+40K,Anchor Clustering (post-VJ grouping),0.46
+50K,Anchor Clustering (post-VJ grouping),0.56
+60K,Anchor Clustering (post-VJ grouping),0.69
+70K,Anchor Clustering (post-VJ grouping),0.77
+80K,Anchor Clustering (post-VJ grouping),0.89
+90K,Anchor Clustering (post-VJ grouping),1.04
+100K,Anchor Clustering (post-VJ grouping),0.54
+200K,Anchor Clustering (post-VJ grouping),0.97
+300K,Anchor Clustering (post-VJ grouping),1.61
+10K,Anchor Clustering (pre-VJ grouping),0.11
+20K,Anchor Clustering (pre-VJ grouping),0.14
+30K,Anchor Clustering (pre-VJ grouping),0.15
+40K,Anchor Clustering (pre-VJ grouping),0.17
+50K,Anchor Clustering (pre-VJ grouping),0.23
+60K,Anchor Clustering (pre-VJ grouping),0.21
+70K,Anchor Clustering (pre-VJ grouping),0.27
+80K,Anchor Clustering (pre-VJ grouping),0.32
+90K,Anchor Clustering (pre-VJ grouping),0.33
+100K,Anchor Clustering (pre-VJ grouping),0.37
+200K,Anchor Clustering (pre-VJ grouping),0.64
+300K,Anchor Clustering (pre-VJ grouping),1.01
