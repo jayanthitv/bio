@@ -5,7 +5,9 @@
 
 ## Introduction
 
-The Anchor Clustering Pipeline is a Python script designed to cluster junction sequences of immune repertoire. The pipeline processes and filters the junction sequences, performs Point Packing and BIRCH algorithms, and conducts pairwise comparisons for determining clonal groups by hierarchical clustering. The script can handle nucleotide junction sequences with several user-defined options to customize the analysis. 
+The Anchor Clustering Pipeline is a Python script integrated C++ codes designed to cluster junction sequences of immune repertoire. The pipeline processes and filters the junction sequences, performs Point Packing and BIRCH algorithms, and conducts pairwise comparisons for determining clonal groups by hierarchical clustering. The script can handle million scaled nucleotide junction sequences with several user-defined options to customize the analysis. 
+
+<img width="613" alt="Picture1" src="https://user-images.githubusercontent.com/35077981/228913743-d0f84b6c-e707-456d-8288-d9532bd61f58.png">
 
 
 ## Requirements
@@ -26,11 +28,11 @@ The Anchor Clustering Pipeline is a Python script designed to cluster junction s
 Clone the repository to your local machine. (Highly recommend Anchor_Clustering_PreVJ_Code)
 
 ```{bash}
-git clone https://github.com/skylerchang/AnchorClusteringNt/Anchor_Clustering_PreVJ_Code
+git clone https://github.com/skylerchang/Anchor_Clustering_Nt/Anchor_Clustering_PreVJ_Code
 ```
 or
 ```{bash}
-git clone https://github.com/skylerchang/AnchorClusteringNt/Anchor_Clustering_PostVJ_Code
+git clone https://github.com/skylerchang/Anchor_Clustering_Nt/Anchor_Clustering_PostVJ_Code
 ```
 
 Requirments of Python packages: 
@@ -42,7 +44,8 @@ pip install pandas numpy scipy scikit-learn fastparquet networkx prettytable pya
 To run the scripts, please make sure put the dataset and all the codes in the same folder, then use the following command in your terminal path to the codes:
 
 ```{bash}
-python anchor_clustering_pipeline.py -F input_file.tsv -f data_format -d distance_type -t clustering_threshold -s subcluster -b birch_radius -p partial_data -z size_threshold -m normalized_minimum_distance -l linkage_method
+python Anchor_Clustering_PreVJ.py -F input_file.tsv
+python Anchor_Clustering_Post.py -F input_file.tsv
 ```
 
 ### Arguments
