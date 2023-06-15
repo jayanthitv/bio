@@ -12,10 +12,9 @@ The general usage of each dataset can be found in the Datasets_usage.csv file. E
 | COVID-19 | Schultheiß et al.,2020 |32668194 |
 
 * MS-simulated_40_datasets.zip contains 40 simulated MS datasets <http://clip.med.yale.edu/papers/Nouri2018FI/>
+
 * mixed_COVID_Healthy_datasets.zip contains 12 experimental datasets with data size from 10K to 100K (10K increments), 200K, 300K.
-* 100K_pairwise_datasets.zip contains 6 experimental pairwise diseases(Systemic Lupus Erythematosus(SLE), Hepatitis B (HB), Chronic Lymphocytic Leukemia(CLL), COVID-19 with 100K of each) 
-* 500K_pairwise_datasets.zip contains 6 experimental pairwise diseases(Systemic Lupus Erythematosus(SLE), Hepatitis B (HB), Chronic Lymphocytic Leukemia(CLL), COVID-19 with 500K of each) 
-* 1M_pairwise_datasets.zip contains 6 experimental pairwise diseases(Systemic Lupus Erythematosus(SLE), Hepatitis B (HB), Chronic Lymphocytic Leukemia(CLL), COVID-19 with 1M of each) 
+
 
 
 * 1M_mix_4.zip contains 4 experimental diseases(Systemic Lupus Erythematosus(SLE), Hepatitis B (HB), Chronic Lymphocytic Leukemia(CLL), COVID-19) with 1M unique sequences 
