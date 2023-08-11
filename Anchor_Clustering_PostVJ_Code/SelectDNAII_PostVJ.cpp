@@ -117,7 +117,7 @@ char fn[60];         //file name construction buffer
   strcat(str1,argv[2]); 
   crit.open(str1,ios::out);  //open the good structure channel
   for(run=0;run<runs;run++){//loop over runs
-    sprintf(fn,"run%03d.dat",run);  //create statistics filename
+    snprintf(fn, sizeof(fn), "run%03d.dat", run);  //create statistics filename
     stat.open(fn,ios::out);  //open the statistics channel
     initpop();      //initialize a population
     report(stat);  //make an intial report
