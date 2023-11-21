@@ -115,10 +115,10 @@ python Anchor_Clustering_PostVJ.py -F input_file.tsv -s None -m 0.6 -p 1000 -r 1
 
 
 ## Output
-The output will be a CSV file with the prefix AC_Pre_ or AC_Post_ followed by various parameters, such as AC_Pre_VJ_0.6_1000_50_0.5_0.1_1000_0.12_input_file.csv (with the default settings) or <br>
+The output will be a CSV file with the prefix AC_Pre_ or AC_Post_ followed by various parameters, such as <br> AC_Pre_VJ_0.6_1000_50_0.5_0.1_1000_0.12_input_file.csv (with the default settings) or <br>
 AC_Post_VJ_0.6_1000_50_0.5_0.1_1000_0.12_input_file.csv (with the default settings). <br>
-The file will contain the original input file columns along with their cluster assignments.
 
+The file will contain the original input file columns along with their cluster assignments.
 Temporary files generated during the process will be deleted after the pipeline is completed.
 
 ## License
