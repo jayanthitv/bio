@@ -121,6 +121,23 @@ AC_Post_VJ_0.6_1000_50_0.5_0.1_1000_0.12_input_file.csv (with the default settin
 The file will contain the original input file columns along with their cluster assignments.
 Temporary files generated during the process will be deleted after the pipeline is completed.
 
+
+## Tips for Parameter Tuning
+The default setting can handle most of immune repertoires, but there are three most important parameters you can consider: <br>
+
+* -m, --minimum_distance_ratio: The normalized minimum distance for point packing. Optional. Default is 0.6.
+
+* -z, --size_threshold: The size threshold for determining when to stop split up for subcluster. Optional. Default is 1000.
+
+* -t, --clustering_threshold: The distance threshold for clonal grouping. Optional. Default is 0.12.
+
+* -b, --birch_radius: The radius threshold for BIRCH algorithm. Optional. Default is 0.5.
+
+* -f, --fraction_data: The fraction of data to be fitted in BIRCH algorithm. Optional. Default is 1.
+
+
+
+
 ## License
 This project is licensed under the terms of the MIT License.
 
