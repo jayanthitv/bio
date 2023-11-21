@@ -40,6 +40,9 @@ git clone https://github.com/skylerchang/Anchor_Clustering_Nt/Anchor_Clustering_
 pip install pandas numpy scipy scikit-learn fastparquet networkx prettytable pyarrow 
 ```
 
+## Requirment of g++ Compiler: 
+Anchor Clustering requires the `g++` compiler to build. Please follow installation instructions for different operating systems and verify the installation of `g++`. 
+
 
 ## Input data format
 The input data file should be a tab-separated file with the following columns in the given order:
