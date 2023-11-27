@@ -122,20 +122,24 @@ The file will contain the original input file columns along with their cluster a
 Temporary files generated during the process will be deleted after the pipeline is completed.
 
 
-## Tips for Parameter Tuning
-The default setting can handle most of immune repertoires, but there are three most important parameters you can consider: <br>
-
-* -m, --minimum_distance_ratio: The normalized minimum distance for point packing. Optional. Default is 0.6.
-
-* -z, --size_threshold: The size threshold for determining when to stop split up for subcluster. Optional. Default is 1000.
-
-* -t, --clustering_threshold: The distance threshold for clonal grouping. Optional. Default is 0.12.
-
-* -b, --birch_radius: The radius threshold for BIRCH algorithm. Optional. Default is 0.5.
-
-* -f, --fraction_data: The fraction of data to be fitted in BIRCH algorithm. Optional. Default is 1.
-
-
+## General Tips:
+Anchor Clustering parameters are categorized into two types: those related to Point Packing and those related to BIRCH clustering.
+ 
+The default settings are designed to accommodate a wide range of immune repertoire datasets. In specific cases, it may be necessary to further optimize these parameters as described below.
+ 
+### Specific Cases:
+Case 1: Large Datasets (Million-scale)
+Memory Management: Adjust the -f, --fraction_data parameter to match your system's memory capacity. Lowering the value to, for instance, 0.01, reduces the portion of data used by the BIRCH model during training, conserving memory during multi-processing.
+ 
+Case 2: Medium Datasets (10K to 1M)
+Stringent Clustering: If precise clustering is required, adjust the -t, --clustering_threshold parameter. Set a lower threshold (e.g., 0.1 for normalized Hamming distance and 1 for Hamming distance) to achieve more granular clustering.
+ 
+Case 3: Small Datasets (less than 10K)
+* Consider Clonality: For datasets with high similarity, assess whether the data already exhibits clonal relatedness.
+* Distance Ratio Adjustment: The -m, --minimum_distance_ratio can be reduced to enhance the selection of genetically similar anchor sequences. For instance, setting it below 0.5 might slow the point packing process but increases similarity sensitivity. A balance is achieved at 0.6, which is suitable for most naturally occurring immune repertoires.
+* Size Threshold Tuning: With the -z, --size_threshold, you can opt for a higher threshold or direct pairwise comparisons (setting it to 10K) for a more detailed analysis in smaller datasets.
+ 
+We hope this guide empowers you to effectively utilize Anchor Clustering for your research. For further assistance or to provide feedback, please reach out through our GitHub issues page. 
 
 
 ## License
