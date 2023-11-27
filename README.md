@@ -128,13 +128,13 @@ Anchor Clustering parameters are categorized into two types: those related to Po
 The default settings are designed to accommodate a wide range of immune repertoire datasets. In specific cases, it may be necessary to further optimize these parameters as described below.
  
 ### Specific Cases:
-Case 1: Large Datasets (Million-scale)
+#### Case 1: Large Datasets (Million-scale)
 Memory Management: Adjust the -f, --fraction_data parameter to match your system's memory capacity. Lowering the value to, for instance, 0.01, reduces the portion of data used by the BIRCH model during training, conserving memory during multi-processing.
  
-Case 2: Medium Datasets (10K to 1M)
+#### Case 2: Medium Datasets (10K to 1M)
 Stringent Clustering: If precise clustering is required, adjust the -t, --clustering_threshold parameter. Set a lower threshold (e.g., 0.1 for normalized Hamming distance and 1 for Hamming distance) to achieve more granular clustering.
  
-Case 3: Small Datasets (less than 10K)
+#### Case 3: Small Datasets (less than 10K)
 * Consider Clonality: For datasets with high similarity, assess whether the data already exhibits clonal relatedness.
 * Distance Ratio Adjustment: The -m, --minimum_distance_ratio can be reduced to enhance the selection of genetically similar anchor sequences. For instance, setting it below 0.5 might slow the point packing process but increases similarity sensitivity. A balance is achieved at 0.6, which is suitable for most naturally occurring immune repertoires.
 * Size Threshold Tuning: With the -z, --size_threshold, you can opt for a higher threshold or direct pairwise comparisons (setting it to 10K) for a more detailed analysis in smaller datasets.
