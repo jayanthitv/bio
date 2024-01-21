@@ -35,12 +35,12 @@ or
 git clone https://github.com/skylerchang/Anchor_Clustering_Nt/Anchor_Clustering_PostVJ_Code
 ```
 
-## Requirments of Python packages: 
+## Requirements of Python packages: 
 ```{bash}
 pip install pandas numpy scipy scikit-learn fastparquet networkx prettytable pyarrow 
 ```
 
-## Requirment of g++ Compiler: 
+## Requirement of g++ Compiler: 
 Anchor Clustering requires the `g++` compiler to build. Please follow installation instructions for different operating systems and verify the installation of `g++`. 
 
 
