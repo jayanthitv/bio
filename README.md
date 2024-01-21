@@ -25,7 +25,7 @@ The Anchor Clustering Pipeline is a Python script with integrated C++ codes desi
 
 ## Installation
 
-Clone the repository to your local machine. (Highly recommend Anchor_Clustering_PreVJ_Code)
+Clone the repository to your local machine. (Recommend using Anchor_Clustering_PreVJ_Code, which first conduct grouping of V and J gene subgroups, followed by clustering of sequences.)
 
 ```{bash}
 git clone https://github.com/skylerchang/Anchor_Clustering_Nt/Anchor_Clustering_PreVJ_Code
