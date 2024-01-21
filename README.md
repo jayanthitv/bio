@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The Anchor Clustering Pipeline is a Python script integrated C++ codes designed to cluster junction sequences of immune repertoire. The pipeline processes and filters the junction sequences, performs Point Packing and BIRCH algorithms, and conducts pairwise comparisons for determining clonal groups by hierarchical clustering. The script can handle million scaled nucleotide junction sequences with several user-defined options to customize the analysis. 
+The Anchor Clustering Pipeline is a Python script with integrated C++ codes designed to cluster junction sequences of immune repertoires. The pipeline processes and filters the junction sequences, performs Point Packing and BIRCH algorithms, and conducts pairwise comparisons for determining clonal groups by hierarchical clustering. The script can handle million scaled nucleotide junction sequences with several user-defined options to customize the analysis. 
 
 <img width="613" alt="Picture1" src="https://user-images.githubusercontent.com/35077981/228913743-d0f84b6c-e707-456d-8288-d9532bd61f58.png">
 
