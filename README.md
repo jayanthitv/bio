@@ -144,6 +144,12 @@ We hope this guide empowers you to effectively utilize Anchor Clustering for you
 ## License
 This project is licensed under the terms of the MIT License.
 
+## Citation
+Chang, H., Ashlock, D.A., Graether, S.P. et al. Anchor Clustering for million-scale immune repertoire sequencing data. BMC Bioinformatics 25, 42 (2024). https://doi.org/10.1186/s12859-024-05659-z
+
+
 ## Contact
 For help or issues using Anchor Clustering, please submit a GitHub issue.
 For other communications, please contact hchang02@uoguelph.ca
+
+
